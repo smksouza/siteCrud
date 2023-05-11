@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+li > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.logo > h1 {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #23232e;
+    height: 8vh;
+}
+
+.lista-menu{
+    list-style: none;
+    display: flex;
+}
+
+.lista-menu li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#cadastro {
+    display: flex;
+    gap: 20px;
+}
+
+#telaCadastro {
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
